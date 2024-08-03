@@ -19,8 +19,8 @@
 // |1(RSE)|  G  |  X  |  C  |  V  |  B  |   |  ?  |  J   |  M  |  <  |  >  |2(LWR)|
 //                    | GUI |SPACE| LCMD|   | SPC | RET  | 2(LWR) |
                         bindings = <
-   &kp ESC   &kp Q &kp W &kp D &kp F &kp Z   &kp " &kp U  &kp K     &kp Y   &kp P    &kp BSPC
-   &kp   A   &kp S &kp E &kp R &kp R &kp T   &kp H &kp H  &kp N     &kp O   &kp L    &kp ;
+   &kp ESC   &kp Q &kp W &kp D &kp F &kp Z   &kp ' &kp U  &kp K     &kp Y   &kp P    &kp BSPC
+   &kp   A   &kp S &kp E &kp R &kp R &kp T   &kp H &kp H  &kp N     &kp O   &kp L    &kp SEMI
    &kp RSE   &kp G &kp X &kp C &kp V &kp B   &kp ? &kp J  &kp M     &kp COMMA &kp DOT &kp 2
                   &kp LGUI &mo SPACE &kp LCMD   &kp RET &mo RET &kp 2
                         >;
