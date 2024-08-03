@@ -1,4 +1,4 @@
-/*
+exxxxx/*
  * Copyright (c) 2020 The ZMK Contributors
  * making an edit
  * SPDX-License-Identifier: MIT
@@ -16,7 +16,7 @@
 // -----------------------------------------------------------------------------------------
 // | ESC  |  Q  |  W  |  D  |  F  |  Z  |   |  '  |  U   |  K  |  Y  |  P  | BKSP |
 // | TAB  |  A  |  S  |  E  |  R  |  T  |   |  H  |  N   |  I  |  O  |  L  |  ;   |
-// | LALT |  G  |  X  |  C  |  V  |  B  |   |  ?  |  J   |  M  |  <  |  >  |2(LWR)|
+// | LALT |  G  |  X  |  C  |  V  |  B  |   |SLASH|  J   |  M  |  <  |  >  |2(LWR)|
 //                    | GUI |SHIFT| LCMD|   | SPC | RET  | 1(RSE) |
                         bindings = <
    &kp ESC   &kp Q &kp W &kp D &kp F &kp Z   &kp APOS     &kp U  &kp K     &kp Y           &kp P    &kp BSPC
@@ -47,7 +47,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  TAB  &kp EXCL     &kp AT         &kp HASH       &kp DLLR    &kp PRCNT  &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &kp K_PP     &kp K_VOL_DN   &kp K_VOL_UP   &trans      &trans     &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
+   &kp LCTRL &kp C_PP     &kp K_VOL_DN   &kp K_VOL_UP   &trans      &trans     &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
    &kp LSHFT &trans       &trans         &trans         &trans      &trans     &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
                           &kp LGUI       &trans         &kp SPACE   &kp RET    &trans    &kp RALT
                         >;
