@@ -16,13 +16,13 @@
 // -----------------------------------------------------------------------------------------
 // | ESC  |  Q  |  W  |  D  |  F  |  Z  |   |  '  |  U   |  K  |  Y  |  P  | BKSP |
 // | TAB  |  A  |  S  |  E  |  R  |  T  |   |  H  |  N   |  I  |  O  |  L  |  ;   |
-// |1(RSE)|  G  |  X  |  C  |  V  |  B  |   |  ?  |  J   |  M  |  <  |  >  |2(LWR)|
+// | LALT |  G  |  X  |  C  |  V  |  B  |   |  ?  |  J   |  M  |  <  |  >  |2(LWR)|
 //                    | GUI |SHIFT| LCMD|   | SPC | RET  | 2(LWR) |
                         bindings = <
    &kp ESC   &kp Q &kp W &kp D &kp F &kp Z   &kp APOS     &kp U  &kp K     &kp Y   &kp P    &kp BSPC
-   &kp   A   &kp S &kp E &kp R &kp R &kp T   &kp H        &kp N  &kp I     &kp O   &kp L    &kp SEMI
-   &kp   1   &kp G &kp X &kp C &kp V &kp B   &kp QMARK &kp J  &kp M     &kp COMMA &kp DOT &kp 2
-                   &kp LCTRL   &mo LSHIFT &kp LCMD   &kp SPACE &mo RET &kp 2
+   &kp TAB   &kp A &kp S &kp E &kp R &kp T   &kp H        &kp N  &kp I     &kp O   &kp L    &kp SEMI
+   &kp LALT  &kp G &kp X &kp C &kp V &kp B   &kp QMARK &kp J  &kp M     &kp COMMA &kp DOT &mo 2
+                   &kp LCTRL   &mo LSHIFT &kp LCMD   &kp SPACE &mo RET &mo 1
                         >;
                 };
                 raise_layer {
