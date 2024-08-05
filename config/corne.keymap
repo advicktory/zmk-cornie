@@ -33,7 +33,7 @@ raise_layer{
 //                    | GUI |      |SPC  |   |     | RET |     |
                         bindings = <
    &kp TILDE    &kp N1       &kp N2         &kp N3         &kp N4      &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp DEL
-   &kp LCTRL    &kp C_PP     &kp K_VOL_DN   &kp K_VOL_UP   &trans      &PIPE      &kp UNDER  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE  &kp PLUS
+   &kp LCTRL    &kp C_PP     &kp K_VOL_DN   &kp K_VOL_UP   &trans      &kp PIPE   &kp UNDER  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE  &kp PLUS
    &kp LSHFT    &bt BT_CLR   &bt BT_NXT     &bt BT_PRV     &trans      &trans     &trans     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  
                                             &kp LGUI       &trans      &kp SPACE  &trans     &kp RET    &trans
                         >;
